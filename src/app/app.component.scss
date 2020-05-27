@@ -1,0 +1,45 @@
+:host {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+
+  table,
+  th,
+  td {
+  }
+
+  table {
+    border-collapse: collapse;
+  }
+
+  thead > tr:last-child > th {
+    border-bottom: 3px solid black;
+  }
+
+  th {
+    font-weight: normal;
+  }
+
+  th,
+  td {
+    padding: 8px;
+  }
+
+  td {
+    text-align: right;
+  }
+
+  .border-right {
+    border-right: 3px solid black;
+  }
+
+  .align-left {
+    text-align: left;
+  }
+
+  .bold {
+    font-weight: bold;
+  }
+}
